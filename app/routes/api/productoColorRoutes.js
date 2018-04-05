@@ -3,12 +3,9 @@ const express = require('express');
 const router = express.Router();
 
 /* Load controller */
-const ProductoController = require('../../controller/productoControler');
-const productoController = new ProductoController();
+//const ProductoController = require('../../controller/productoControler');
+//const productoController = new ProductoController();
 
-/**
- * Car Entity routes
- */
 router.get('/count', function (req, res) {
     productoController.countAll(res);
 });

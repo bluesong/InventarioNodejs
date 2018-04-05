@@ -8,6 +8,7 @@ const router = express.Router();
 router.use('/color', require('./api/colorRoutes'));
 router.use('/ref', require('./api/refRoutes'));
 router.use('/Prod', require('./api/productoRoutes'));
+router.use('/ProdCol', require('./api/productoColorRoutes'));
 router.use('/use', require('./api/userRoutes'));
 
 
